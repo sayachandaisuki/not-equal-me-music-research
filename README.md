@@ -20,6 +20,8 @@
 
 ## Repository policy
 
-Google Drive上の研究原本をSource of Truthとし、このGitHubリポジトリには公開・検証に適した成果物のみを配置します。
+研究作業用の原本・内部管理資産と、公開上の出典は分離します。このGitHubリポジトリには公開・検証に適した成果物のみを配置し、各Claimでは公式サイト、YouTube、制作者発信、権威データ等の実際の外部情報源を出典として記載します。内部の保存先や管理ファイルは出典として扱いません。
+
+第三者の歌詞全文・映像ファイル・記事本文など、権利上そのまま再配布すべきでない資料は格納しません。
 
 Current research schema: `RESEARCH_SCHEMA_v2_FROZEN`
