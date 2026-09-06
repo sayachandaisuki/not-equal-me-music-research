@@ -10,10 +10,10 @@
 | CE-002 | Fact | 単曲先行配信は2026-06-09 | 公式告知・配信カタログ | S03, S04 | High | なし | Yes |
 | CE-003 | Fact | 作詞＝指原莉乃、作曲＝齋藤奏太、編曲＝APAZZI | 公式クレジット・本人発信 | S05, S13, S14 | High | なし | Yes |
 | CE-004 | Fact | Guitar、Bass、Key/Piano、Stringsの生演奏者が公表されている | APAZZI・演奏者発信 | S14, S16, S17 | High | 録音工程の詳細は未公表 | Yes |
-| CE-005 | Fact | 公式MV尺はAPI上249秒、配信表示は4:10 | YouTube Data API・Apple | D01, S04 | High | 1秒差の理由は未確認 | Qualified |
+| CE-005 | Fact | 公式MV尺はAPI上249秒、配信表示は4:10 | ≠ME公式YouTubeの公開メタデータ・Apple Music | YT01, S04 | High | 1秒差の理由は未確認 | Qualified |
 | CE-006 | Fact | 《幻想即興曲》オマージュはデモ段階ですでに存在 | 編曲者APAZZIの説明 | S15 | High | オマージュの具体箇所は本調査で採譜未実施 | Yes |
 | CE-007 | Fact | 作曲者自身が旋律を難しいと評価 | 齋藤奏太の発信 | S37 | High | 難度の内訳は未公表 | Yes |
-| CE-008 | Observation | 公式運用上、イントロ、複数サビ、Dメロ、間奏、落ちサビ、大サビ、アウトロが区別される | 公式Shortsの区間名・歌詞区分 | S05, D02, S22 | Medium | 小節数・正式形式名は未確認 | Qualified |
+| CE-008 | Observation | 公式運用上、イントロ、複数サビ、Dメロ、間奏、落ちサビ、大サビ、アウトロが区別される | 公式Shortsの区間名・歌詞区分 | S05, YT04, S22 | Medium | 小節数・正式形式名は未確認 | Qualified |
 | CE-009 | Observation | テンポは約147〜150 BPMと機械推定される | 独立する自動解析 | S44, S45 | Low | 公式値ではない | Qualified |
 | CE-010 | Unresolved | 調性はDm／Cmの判定が競合し確定不能 | 自動解析間の不一致 | S45ほか | Low | 原盤・公式譜が必要 | No |
 | CE-011 | Fact | 初披露は2026-05-16神戸ワールド記念ホール | レーベル公式記事 | S11 | High | なし | Yes |
@@ -23,7 +23,7 @@
 | CE-015 | Fact | MV監督＝荒船泰廣、振付＝akane、Producer＝三池智之、Drone＝TERU FPV | 公式・制作会社・本人発信 | S05, S12, S18, S21 | High | なし | Yes |
 | CE-016 | Fact | 鈴木、谷崎、冨田、永田が恋で翼を失った4人の堕天使を演じる | 公式MV記事 | S12 | High | なし | Yes |
 | CE-017 | Fact | 4人はドールハウスと7体の人形で天界を再現し、人形世界は1999年7月の日本 | 公式MV記事 | S12 | High | なし | Yes |
-| CE-018 | Analysis | 「1999年7月32日」は作られた幸福の不可能性を可視化する | 公式Shorts題名＋MV設定 | S12, D02 | Medium | 意味は監督の明示解説ではなく分析 | Analysis |
+| CE-018 | Analysis | 「1999年7月32日」は作られた幸福の不可能性を可視化する | 公式Shorts題名＋MV設定 | S12, YT04 | Medium | 意味は監督の明示解説ではなく分析 | Analysis |
 | CE-019 | Fact | 真紅の衣装は踊ると薔薇に見え、可憐さと狂気を併せ持つ意図 | 衣装デザイナー本人発信 | S20 | High | なし | Yes |
 | CE-020 | Analysis | 丁寧な表題は文脈上、懇願から命令・所有へ強まる | 許諾歌詞の要求語彙・英語句 | S22 | Medium | 作者意図ではない | Analysis |
 | CE-021 | Observation | 舞台語彙と恋愛語彙が反復的に交差する | 許諾歌詞全文照合 | S22 | High | 長文歌詞引用は不可 | Yes |
@@ -40,13 +40,13 @@
 | CE-032 | Analysis | 総合首位はCD発売週への集中が大きく、SNS話題と順位持続は同義でない | CE-028〜031 | S31, S32, S47, S48 | Medium | 各構成指標の全寄与分解は未実施 | Analysis |
 | CE-033 | Fact | レーベルは発売1週で出荷45万枚、関連投稿約5万、永田投稿500万超、イベント約4千人と発表 | レーベル公式記事 | S30 | High | 自社発表。SNS集計定義は不明 | Qualified |
 | CE-034 | Fact | 指原莉乃は先行配信日にTikTok投稿1万件超と発信 | 本人発信 | S35 | High | S30と同一指標か不明 | Qualified |
-| CE-035 | Observation | MVは2026-09-05 04:00 JST時点で13,450,222再生、89,641いいね、8,144コメント | YouTube API由来のDrive台帳 | D02 | High | 時点値であり変動する | Yes |
-| CE-036 | Analysis | 2026-08-11夜〜09-05早朝にMVは1,309,266回増、平均約5.38万回／日 | D03とD02の差分 | D02, D03 | High | 約24.3日の単純平均 | Qualified |
-| CE-037 | Observation | 複数公式Shortsが100万〜600万回規模に達し、フルMV以外にも入口がある | YouTube API由来のDrive台帳 | D02 | High | 各動画の公開期間が異なる | Qualified |
-| CE-038 | Analysis | ダンス、物語、歌唱へ入口を増やす公開運用が確認できる | 公開物の種類と時系列 | S05–S10, S23–S25, D02 | Medium | 成果への因果寄与は未証明 | Analysis |
+| CE-035 | Observation | MVは2026-09-05 04:00 JST時点で13,450,222再生、89,641いいね、8,144コメント | ≠ME公式YouTubeの公開値をYouTube Data API等で取得 | YT04 | High | 時点値であり変動する | Yes |
+| CE-036 | Analysis | 2026-08-11夜〜09-05早朝にMVは1,309,266回増、平均約5.38万回／日 | ≠ME公式YouTube公開値の時点観測差分 | YT02, YT04 | High | 約24.3日の単純平均 | Qualified |
+| CE-037 | Observation | 複数公式Shortsが100万〜600万回規模に達し、フルMV以外にも入口がある | ≠ME公式YouTubeの公開値をYouTube Data API等で取得 | YT04 | High | 各動画の公開期間が異なる | Qualified |
+| CE-038 | Analysis | ダンス、物語、歌唱へ入口を増やす公開運用が確認できる | 公開物の種類と時系列 | S05–S10, S23–S25, YT04 | Medium | 成果への因果寄与は未証明 | Analysis |
 | CE-039 | Fact | 「チョコレートメランコリー」「アンチコンフィチュール」とAPAZZI、a.k.a. JAKE、三池智之が共通 | 各公式MV説明 | C01, C03, S05 | High | 全制作陣が同一ではない | Yes |
 | CE-040 | Analysis | 過去作のダーク恋愛、天使、反甘味、童話をセンターなしの群像へ再編した | 公式比較資料＋本作分析 | C01–C05, S05, S11, S12, S22 | Medium | 直接の続編・影響証言ではない | Analysis |
-| CE-041 | Unresolved | CDTVフルサイズ版の具体的な歌唱・隊形・放送ミックス | Driveに保存MP4の存在 | D05, S38 | Low | 本環境で映像内容を精査できず | No |
+| CE-041 | Unresolved | CDTVフルサイズ版の具体的な歌唱・隊形・放送ミックス | 公開告知でフルサイズ披露の存在のみ確認 | S38 | Low | 具体的内容は未確認。適法に利用可能な公式資料または許諾済み資料が必要 | No |
 | CE-042 | Unresolved | 全歌割り、ハーモニー編成、録音セッション詳細 | 公開資料に完全情報なし | — | Low | 推測禁止 | No |
 | CE-043 | Interpretation | 本曲は愛を保存しようとするほど愛を呪縛・契約・ショーへ変える作品と読める | 歌詞、MV設定、音楽・振付の分析統合 | S12, S15, S20, S22 | Medium | 作者の唯一の意図ではない | Analysis |
 
