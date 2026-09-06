@@ -17,7 +17,7 @@
 | S06 | ≠ME公式YouTube | [Dance Practice](https://www.youtube.com/watch?v=Ggu5Gwi-sHY) | 群舞資料 | A |
 | S07 | ≠ME公式YouTube | [One-Take Dance](https://www.youtube.com/watch?v=d6RRs-aF5eg) | 一発撮り群舞 | A |
 | S08 | ≠ME公式YouTube | [Dance version](https://www.youtube.com/watch?v=guEGsROmUBc) | ダンス資料 | A |
-| S09 | ≠ME公式YouTube | [Position Shuffle](https://www.youtube.com/watch?v=Bx_Zf1R1LW4) | ポジション役割 | A |
+| S09 | ≠ME公式YouTube | [Position Shuffle](https://www.youtube.com/watch?v=Bx_Zf1R1LW4) | 公式「Position Shuffle」企画映像 | A |
 | S10 | ≠ME公式YouTube | [Behind The Scenes](https://www.youtube.com/watch?v=n3KPOFIP4IU) | ジャケット、振入れ、衣装、MV工程 | A |
 | S11 | KING RECORDS TODAY | [神戸公演で初披露](https://news.kingrecords.co.jp/2026/05/54040/) | 初披露、11名、センターなし、最高難度 | A |
 | S12 | KING RECORDS TODAY | [MV公開・公式コメント](https://news.kingrecords.co.jp/2026/06/55105/) | 堕天使、人形、1999年、振付意図 | A |
@@ -41,7 +41,7 @@
 | S30 | KING RECORDS TODAY | [首位・出荷・SNS波及](https://news.kingrecords.co.jp/2026/06/55889/) | 45万出荷、約5万投稿、イベント | A（自社発表） |
 | S31 | Billboard JAPAN | [Top Singles Sales](https://www.billboard-japan.com/d_news/detail/162970/2) | 初週431,769枚、1位 | A |
 | S32 | Billboard JAPAN | [JAPAN Hot 100](https://www.billboard-japan.com/d_news/detail/163027/2) | 94位→1位、初総合首位 | A |
-| S33 | Billboard JAPAN | [冨田菜々風コメント](https://www.billboard-japan.com/d_news%20/detail/163070/2) | 初披露からの発見、本人評価 | A |
+| S33 | Billboard JAPAN | [冨田菜々風コメント](https://www.billboard-japan.com/d_news/detail/163070/2) | 初披露からの発見、本人評価 | A |
 | S34 | Oricon | [週間シングル1位](https://www.oricon.co.jp/news/2464494/full/) | 初週31.0万、3作連続・通算5作目 | A |
 | S35 | 指原莉乃 | [TikTok投稿1万件超](https://x.com/345__chan/status/2064246485970284585) | 先行配信時点の波及 | A- |
 | S36 | 指原莉乃 | [MV打合せの別案](https://x.com/345__chan/status/2066156949104992596) | 未採用人物関係案の存在 | A- |
@@ -66,15 +66,16 @@
 | S50 | note個人記事 | [MV時刻付き観察](https://note.com/knight_flight/n/n26f660c44d4c) | 4:3、日付等の観察リード | C |
 | S51 | 個人ブログ | [MV考察](https://kazurex1215.hatenablog.jp/entry/2026/08/23/095345) | 7月32日等の照合リード | C |
 
-## 3. Google Drive内の再利用資料
+## 3. YouTube公開データの観測記録
 
-| ID | 資料 | リンク | 観測／保存時点 | 用途 |
+以下は、≠ME公式YouTube上で公開されていた情報をYouTube Data API等を通じて取得した時点観測です。内部の保存先や管理ファイルは出典とは扱いません。
+
+| ID | 出典 | 観測時点（JST） | 用途 | 評価 |
 |---|---|---|---|---|
-| D01 | idol_youtube_benchmark_registry | [Spreadsheet](https://docs.google.com/spreadsheets/d/1kskwzVsFKbCrJxeuKubWQ9dNb7DzM2XJ5jjvxfokScs/edit) | 継続更新 | video_id、公開日時、尺 |
-| D02 | 09-05 YouTube観測CSV | [CSV](https://drive.google.com/file/d/1fFvIBKL7vMXc0J1al8evdeey-0ShBaA1/view?usp=drivesdk) | 2026-09-05 04:00:12 JST | MV・派生映像の時点値、説明欄 |
-| D03 | 08-11 YouTube観測CSV | [CSV](https://drive.google.com/file/d/1G7vq-2q7VAJUbvobMuV4b2THyHy8dzsT/view?usp=drivesdk) | 2026-08-11 20:24:09 JST | 推移の起点 |
-| D04 | 08-22 YouTube観測CSV | [CSV](https://drive.google.com/file/d/18uaN-MnAWqgH4Xp0SPhfvpSK5CiMNEi_/view?usp=drivesdk) | 2026-08-22 04:00:12 JST | 推移の中間点 |
-| D05 | CDTVライブ保存MP4 | [Drive file](https://drive.google.com/file/d/1fVWe8t64GjID5tW1tnJbcO105bqR5V-t/view?usp=drivesdk) | Drive保存 2026-08-30 | 存在・メタデータ確認のみ。内容未精査 |
+| YT01 | ≠ME公式YouTube / YouTube Data API | 2026-09-05 04:00 | video_id、公開日時、動画尺等の公開メタデータ | A |
+| YT02 | ≠ME公式YouTube / YouTube Data API | 2026-08-11 20:24 | MV再生数・いいね・コメント等の公開値 | A |
+| YT03 | ≠ME公式YouTube / YouTube Data API | 2026-08-22 04:00 | MV再生数・いいね・コメント等の公開値 | A |
+| YT04 | ≠ME公式YouTube / YouTube Data API | 2026-09-05 04:00 | MV・公式Shorts・派生公式動画の公開値 | A |
 
 ## 4. 比較対象の公式資料
 
@@ -92,12 +93,10 @@
 - 自動キー判定は競合するため調性確定に不採用。BPMも約147〜150の参考範囲に限定。
 - 個人考察は映像内記号の探索にのみ使い、意味解釈の根拠は公式設定・一次Observationへ戻した。
 - TikTok「1万件超」「約5万件」は集計定義が不明なため、同じ母集団の時系列値として計算しない。
-- CDTV保存MP4は内容を直接精査できなかったため、保存の存在以上の主張に使わない。
 - 歌詞は許諾ページで照合したが、成果物には全文・長文引用を収録しない。
 
-## 6. アクセス上の記録
+## 6. 再現性・観測範囲
 
-- vidIQによる動画全編解析、字幕、コメント、音声抽出は残クレジット不足で失敗。課金は発生していない。
-- 公式MV URLと公式説明欄は確認済み。直接動画解析ができない項目は資料経由と明示した。
-- 可変データの最終観測は2026-09-05 04:00:12 JST。これ以後の再生数等は本調査の確定値に含めない。
-
+- 公式MV URL、公式説明、公式記事を優先して確認した。
+- YouTubeの可変データの最終観測は2026-09-05 04:00 JST。これ以後の再生数等は本調査の確定値に含めない。
+- 動画全編の自動解析結果は確定Factの根拠として採用しない。直接確認できない項目は資料経由であることを明示する。
