@@ -1,67 +1,55 @@
-# Final Validation / Publication Audit — ≠ME「愛くださいませ」
+# Final Publication Validation — ≠ME「愛くださいませ」
 
-- Research validation date: 2026-09-05
-- Publication audit date: 2026-09-07
-- Research result: **PASS WITH DOCUMENTED LIMITATIONS**
-- Publication result: **PASS AFTER CORRECTIONS**
+- validation_date: **2026-09-07**
+- research_version: **v1.0**
+- result: **PASS**
 
-## 1. 公開成果物
+## 1. 成果物整合
 
-| 成果物 | 状態 | 公開監査 |
+| 成果物 | 状態 | 判定 |
 |---|---|---|
 | Public Report | 完成 | Pass |
 | Evidence Report | 完成 | Pass |
 | Claim–Evidence Table | 43 Claim | Pass |
 | References / Source Inventory | S01–S51、YT01–YT04、C01–C05 | Pass |
-| research_status | 完成 | Pass |
+| Research Status | 完成 | Pass |
 
-## 2. Evidence Report ↔ Public Report整合
+## 2. 主要事実の整合
 
-| 検証軸 | 結果 |
+| 検証軸 | 判定 |
 |---|---|
-| 公開順（05-16初披露、06-09配信、06-24発売） | Pass |
-| 11名／公式「センターという概念なし」 | Pass |
-| 作詞・作曲・編曲・演奏者 | Pass |
+| 2026-05-16初披露、06-09先行配信、06-24発売 | Pass |
+| 菅波美玲を除く11名／公式「センターという概念なし」 | Pass |
+| 作詞・作曲・編曲・演奏者クレジット | Pass |
 | 《幻想即興曲》オマージュの扱い | Pass |
 | MVの4人の堕天使＋7体の人形、1999年7月 | Pass |
 | 振付の公式評価と制作者コメント | Pass |
-| CDTV「ライブ！ライブ！」フルサイズ披露（公開告知） | Pass |
-| Billboard / Oricon / Hot 100 | Pass |
-| YouTube時点観測値 | Pass |
+| 2026-07-13 CDTV「ライブ！ライブ！」フルサイズ披露 | Pass |
+| Billboard JAPAN / Oricon / Hot 100 | Pass |
+| YouTube公開値の時点観測 | Pass |
 | 調性を未解決のまま保持 | Pass |
 | 批評的解釈と作者意図の分離 | Pass |
 
 ## 3. Claim / Source整合
 
-- Claim数: 43。
-- Claim ID: CE-001〜CE-043、連番・重複なし。
-- 公開Source定義数: 60。
-- 未定義Source ID参照: 0。
-- YouTube差分: 13,450,222 − 12,140,956 ＝ 1,309,266。
-- 観測間隔: 約24.3日。
-- 単純日平均: 約5.38万回／日。
+- Claim数: **43**。
+- Claim ID: **CE-001〜CE-043**、連番・重複なし。
+- Source定義数: **60**（S01–S51、YT01–YT04、C01–C05）。
+- 未定義Source ID参照: **0**。
+- YouTube差分: **13,450,222 − 12,140,956 = 1,309,266**。
+- 観測間隔: 約**24.3日**。
+- 単純日平均: 約**5.38万回／日**。
 
-## 4. 公開監査で修正した事項
+## 4. 出典・表現監査
 
-1. **Position Shuffle**
-   - 公式「Position Shuffle」を、メンバーの恒常的な役割情報の根拠とはしない。
-   - Source Inventoryでは「公式『Position Shuffle』企画映像」と中立表記に修正。
-
-2. **YouTube観測データの出典**
-   - ≠ME公式YouTube上の公開値をYouTube Data API等で取得した時点観測として `YT01–YT04` に定義。
-   - 観測日時を明記し、可変値であることを保持。
-
-3. **リンク品質**
-   - Billboard JAPANの冨田菜々風コメント記事URLに含まれていた不要な空白エンコードを修正。
-
-## 5. 著作権・公開境界
-
-- 歌詞全文を格納しない。許諾歌詞を参照し、Public Reportでは要約・批評として扱う。
-- 第三者記事本文を転載せず、出典リンクと要約・分析を使用する。
-- 時点観測データは公開YouTube情報由来であることと観測日時を明示する。
+- `Position Shuffle` は公式企画映像として中立的に扱い、恒常的なポジション役割の根拠とはしない。
+- YouTube数値は≠ME公式YouTubeの公開値を観測日時付きで扱う。
+- 可変値、機械推定、二次資料には限定条件を付ける。
+- 歌詞は長文引用を避け、要約・批評として扱う。
+- 第三者記事本文は転載せず、出典リンクと要約・分析を用いる。
 - Fact / Observation / Analysis / Interpretationを区別する。
 
-## 6. 未解決のまま公開する事項
+## 5. 未解決事項
 
 - 正式な調性、確定BPM、コード進行。
 - 全歌割り、ハーモニー構成、録音セッション詳細。
@@ -70,8 +58,8 @@
 - TikTok数値の厳密な母集団。
 - 個別施策と売上・再生の因果寄与率。
 
-## 7. 最終判定
+## 6. 最終判定
 
-公開上の問題として確認された出典表現を修正した。
+公開成果物間の主要Fact、Claim、Source ID、数値、留保、解釈区分に重大な不整合は確認されなかった。公開版は一次・公式資料を優先し、未解決事項を未解決のまま保持している。
 
-公開版は、一次・公式資料を優先したClaim–Evidence構造を維持しつつ、第三者著作物そのものを再配布しない構成になっている。上記の未解決事項と批評的解釈の境界を明示することを条件に、**Public化可能**と判定する。
+**Public化可能**と判定する。
