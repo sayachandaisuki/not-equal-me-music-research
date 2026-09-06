@@ -1,53 +1,33 @@
 # research_status — 愛くださいませ
 
-## 構造移行メタデータ
+## 公開版メタデータ
 
 - research_version: v1.0
 - parent_version: none
 - model: GPT-5.6 Sol
 - schema_version: RESEARCH_SCHEMA_v2_FROZEN
-- version_folder_url: https://drive.google.com/drive/folders/1tYm5Kjewi3UNFrDv1XhUBsRZKhMXr58H
-- migration_date: 2026-09-06 (JST)
-- migration_type: structure-only
-- research_revision: no
-- research_content_changed: no
+- publication_audit: completed
+- research_content_changed_by_publication_audit: no
 
 - 調査開始日: 2026-09-05
 - 最終更新日: 2026-09-05
 - 現在Phase: Completed
 - 最後に正常終了したPhase: Phase 10
-- 完了Phase: Phase 0, Phase 1, Phase 2, Phase 3, Phase 4, Phase 5, Phase 6, Phase 7, Phase 8, Phase 9, Phase 10
 - 未完了Phase: なし
 - Final Validation: PASS WITH DOCUMENTED LIMITATIONS
-- 次に実施する処理: なし（追加一次資料入手時のみ再開）
 
-## 主要成果物
+## 公開成果物
 
-- 99_Working/phase0_drive_inventory.md
-- 02_Research/phase1_basic_metadata.md
-- 01_Sources/phase1_initial_source_list.md
-- 01_Sources/phase2_source_inventory.md
-- 01_Sources/youtube_observation_extract_2026-09-05.csv
-- 02_Research/phase2_primary_source_extracts.md
-- 03_Analysis/phase3_music_structure_analysis.md
-- 03_Analysis/phase3_lyrics_narrative_analysis.md
-- 03_Analysis/phase3_vocal_choreography_analysis.md
-- 03_Analysis/phase3_mv_visual_analysis.md
-- 03_Analysis/phase3_live_version_analysis.md
-- 03_Analysis/phase4_production_context.md
-- 03_Analysis/phase5_comparative_context.md
-- 04_Evidence/claim_evidence_table.md
-- 04_Evidence/claim_evidence_table.csv
-- 04_Evidence/evidence_report.md
-- 04_Evidence/references_source_inventory.md
-- 04_Evidence/phase8_evidence_audit.md
-- 04_Evidence/final_validation.md
-- 05_Public/public_report_note.md
-- artifact_manifest.md
+- public_report.md
+- evidence_report.md
+- claim_evidence_table.md
+- references_source_inventory.md
+- final_validation.md
+- research_status.md
 
-## エラー・注意事項
+## 公開版の注意事項
 
-- vidIQの映像解析・メタデータ・コメント取得は残クレジット不足で実行不可。課金なし。
-- 公式MVは公開URLと公式記事を確認済み。保存済み生映像はローカル実体化できなかったため、直接視聴に基づくショット単位の断定は行わない。
-- 「センターなし」という公式記述と、一部二次資料の冨田菜々風センター表記が不一致。公式記述を優先し、未解決事項として保持する。
-- 調性は自動解析サービス間で不一致（Dm／Cm）。BPMは約147〜150の推定値としてのみ扱い、調性は未解決とする。
+- YouTube観測値は、≠ME公式YouTube上の公開情報をYouTube Data API等で取得した時点値として扱う。内部の保存先・管理ファイルは出典としない。
+- 公式「Position Shuffle」は企画映像として扱い、メンバーの恒常的な役割情報を示す資料とは解釈しない。
+- 公開・利用許諾を確認できない映像ファイルは、公開研究の出典・証跡として使用しない。
+- MVのショット単位分析、正式な調性、確定BPM等は、適法かつ再現可能な一次資料が不足するため未解決とする。
